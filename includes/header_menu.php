@@ -53,8 +53,7 @@
                 </div>
             </div>
         </nav>
-    <!--navigation bar end-->
-    <!--Login trigger Modal-->
+        
     <div class="modal fade" id="login" >
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content"style="background-color:rgba(255,255,255,0.95)">
@@ -142,12 +141,23 @@
         <label for="phone">Phone:</label>
         <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter phone number" required>
     </div>
-    
+    <div class="form-group">
+      <label for="city">City:</label>
+      <select name="city" id="city" required>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Khulna">Khulna</option>
+        <option value="Mymensingh">Mymensingh</option>
+        <option value="Rajshahi">Rajshahi</option>
+        <option value="Rangpur">Rangpur</option>
+        <option value="Sylhet">Sylhet</option>
+        <option value="Barishal">Barishal</option>
+        <option value="Chattogram">Chattogram</option>
+      </select>
+    </div>
     <div class="form-check">
         <input type="checkbox" class="form-check-input" id="terms" required>
         <label for="terms" class="form-check-label">Agree to terms and conditions</label>
     </div>
-    
     <button type="submit" class="btn btn-primary btn-block" name="Submit">Sign Up</button>
 </form>
 

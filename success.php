@@ -2,8 +2,8 @@
 require "includes/common.php";
 session_start();
 
-$user_id = $_SESSION['user_id'];
-$query = "UPDATE users_products SET status='Confirmed' WHERE user_id='$user_id' AND status='Added to cart'";
+$user_id = $_SESSION['Customer_customerId'];
+$query = "UPDATE Cart SET status='Confirmed' WHERE Customer_customerId='$user_id' AND status='Added to cart'";
 mysqli_query($con, $query);
 ?>
 <!DOCTYPE html>

@@ -53,7 +53,7 @@ include 'includes/check-if-added.php';
                      echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                     } else {
                         ?>
-                        <p><a href="cart-add.php?id=1" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a><p>
+                        <p><a href="cart-add.php?cartId=1" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a><p>
                         <?php
                         }
                     }
@@ -75,7 +75,7 @@ include 'includes/check-if-added.php';
                         echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                          } else {
                         ?>
-                        <p><a href="cart-add.php?id=2" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                        <p><a href="cart-add.php?cartId=2" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
                         <?php
                          }
                     }
@@ -97,7 +97,7 @@ include 'includes/check-if-added.php';
                         echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                         } else {
                         ?>
-                        <p><a href="cart-add.php?id=3" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                        <p><a href="cart-add.php?cartId=3" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
                         <?php
                         }
                     }
@@ -119,7 +119,7 @@ include 'includes/check-if-added.php';
                         echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                         } else {
                         ?>
-                        </p><a href="cart-add.php?id=4" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                        </p><a href="cart-add.php?cartId=4" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
                         <?php
                         }
                     }
@@ -143,7 +143,7 @@ include 'includes/check-if-added.php';
                         echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                         } else {
                         ?>
-                        <p><a href="cart-add.php?id=5" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                        <p><a href="cart-add.php?cartId=5" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
                         <?php
                         }
                     }
@@ -165,7 +165,7 @@ include 'includes/check-if-added.php';
                         echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                         } else {
                         ?>
-                        <p><a href="cart-add.php?id=6" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                        <p><a href="cart-add.php?cartId=6" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
                         <?php
                     }
                     }
@@ -187,7 +187,7 @@ include 'includes/check-if-added.php';
                     echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                     } else {
                     ?>
-                    <p><a href="cart-add.php?id=7" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                    <p><a href="cart-add.php?cartId=7" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
                     <?php
                     }
                     }
@@ -209,7 +209,7 @@ include 'includes/check-if-added.php';
                         echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                         } else {
                         ?>
-                        <p><a href="cart-add.php?id=8" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                        <p><a href="cart-add.php?cartId=8" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
                         <?php
                         }
                     }
@@ -233,7 +233,7 @@ include 'includes/check-if-added.php';
                     echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                     } else {
                     ?>
-                    <p><a href="cart-add.php?id=9" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                    <p><a href="cart-add.php?cartId=9" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
                     <?php
                     }
                     }
@@ -255,7 +255,7 @@ include 'includes/check-if-added.php';
                     echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                     } else {
                     ?>
-                     <p><a href="cart-add.php?id=10" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                     <p><a href="cart-add.php?cartId=10" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
                      <?php
                     }
                     }
@@ -277,7 +277,7 @@ include 'includes/check-if-added.php';
                     echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                     } else {
                     ?>
-                    <p><a href="cart-add.php?id=11" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                    <p><a href="cart-add.php?cartId=11" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
                     <?php
                     }
                     }
@@ -299,7 +299,7 @@ include 'includes/check-if-added.php';
                     echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                     } else {
                     ?>
-                    </p><a href="cart-add.php?id=12" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                    </p><a href="cart-add.php?cartId=12" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
                     <?php
                     }
                     }
@@ -323,7 +323,7 @@ include 'includes/check-if-added.php';
                     echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                     } else {
                     ?>
-                    <p> <a href="cart-add.php?id=13" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                    <p> <a href="cart-add.php?cartId=13" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
                     <?php
                     }
                     }
@@ -345,7 +345,7 @@ include 'includes/check-if-added.php';
                     echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                     } else {
                     ?>
-                    </p><a href="cart-add.php?id=14" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                    </p><a href="cart-add.php?cartId=14" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
                     <?php
                     }
                     }
@@ -367,7 +367,7 @@ include 'includes/check-if-added.php';
                     echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                     } else {
                     ?>
-                    </p><a href="cart-add.php?id=15" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                    </p><a href="cart-add.php?cartId=15" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
                    <?php
                     }
                     }
@@ -389,7 +389,7 @@ include 'includes/check-if-added.php';
                     echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
                     } else {
                     ?>
-                    <p> <a href="cart-add.php?id=16" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                    <p> <a href="cart-add.php?cartId=16" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
                     <?php
                     }
                     }

@@ -67,15 +67,15 @@ CREATE TABLE `users_products` (
 -- Dumping data for table `users_products`
 --
 
-INSERT INTO `users_products` (`id`, `user_id`, `item_id`, `status`) VALUES
-(11, 67, 6, 'Confirmed'),
-(17, 67, 1, 'Confirmed'),
-(18, 67, 5, 'Confirmed'),
-(19, 67, 6, 'Confirmed'),
-(20, 67, 1, 'Confirmed'),
-(23, 67, 1, 'Confirmed'),
-(24, 67, 2, 'Confirmed'),
-(25, 67, 9, 'Confirmed');
+  INSERT INTO `users_products` (`id`, `user_id`, `item_id`, `status`) VALUES
+  (11, 67, 6, 'Confirmed'),
+  (17, 67, 1, 'Confirmed'),
+  (18, 67, 5, 'Confirmed'),
+  (19, 67, 6, 'Confirmed'),
+  (20, 67, 1, 'Confirmed'),
+  (23, 67, 1, 'Confirmed'),
+  (24, 67, 2, 'Confirmed'),
+  (25, 67, 9, 'Confirmed');
 
 --
 -- Indexes for dumped tables
