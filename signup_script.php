@@ -69,9 +69,6 @@ $insert_carrier_query = "
     VALUES ('$email', '$phone', '$city')";
 mysqli_query($con, $insert_carrier_query);
 
-
-
-
 // Create a city-specific table if it doesn't exist
 $city_table = "Customer_" . $city; // Table name, e.g., Customer_Sylhet
 $create_table_query = "
@@ -102,11 +99,19 @@ mysqli_query($con, $main_table_query);
 
 // Fetch the new customer's ID and set session variables
 $customer_id = mysqli_insert_id($con);
+
+// Re-fetch the user data to set session variables
+$query = "SELECT CustomerID, Email, FirstName, LastName, Phone, City FROM Customer WHERE CustomerID='$customer_id'";
+$result = mysqli_query($con, $query);
+$row = mysqli_fetch_assoc($result);
+
 $_SESSION['email'] = $row['Email'];
 $_SESSION['Customer_customerId'] = $row['CustomerID'];
 $_SESSION['name'] = $row['FirstName'] . ' ' . $row['LastName'];
+$_SESSION['phone'] = $row['Phone'];
+$_SESSION['city'] = $row['City'];
 
 // Redirect to the products page
-header('location:products.php');
+header('location: products.php');
 exit();
 ?>

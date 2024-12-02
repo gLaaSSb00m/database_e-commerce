@@ -36,7 +36,7 @@ include 'includes/header_menu.php';
                       AND Cart.status='Added to cart'";
 
             $result = mysqli_query($con, $query);
-
+            
             if ($result) {
                 echo "Number of rows: " . mysqli_num_rows($result);
             } else {
